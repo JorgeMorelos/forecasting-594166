@@ -12,7 +12,7 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.local/bin/python",
+        "python.defaultInterpreterPath": "/home/codespace/.local/bin/python",
         "python.terminal.activateEnvironment": false
       }
     }
