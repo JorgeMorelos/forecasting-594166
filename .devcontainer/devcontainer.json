@@ -1,7 +1,8 @@
 {
   "name": "Forecasting - Codespaces",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "customizations": {
     "vscode": {
@@ -16,7 +17,7 @@
       }
     }
   },
-  "postCreateCommand": "python -m ipykernel install --user --name forecasting --display-name \"Python (Forecasting)\"",
+  "postCreateCommand": "pip install --user -r requirements.txt && python -m ipykernel install --user --name forecasting --display-name \"Python (Forecasting)\"",
   "forwardPorts": [8888],
   "remoteUser": "codespace"
 }

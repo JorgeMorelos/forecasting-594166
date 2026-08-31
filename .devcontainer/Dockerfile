@@ -17,8 +17,4 @@ RUN chown -R codespace:codespace /workspace
 
 USER codespace
 
-# Pre-install pip dependencies for faster Codespace startup
-COPY ../requirements.txt .
-RUN pip install --no-cache-dir --user -r requirements.txt
-
 CMD ["sleep", "infinity"]
