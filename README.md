@@ -1,27 +1,27 @@
-# Forecasting Models Projectx
+# Proyecto de Modelos de Pronósticos
 
-This repository contains a Jupyter Notebook focused on forecasting models and time series analysis. The project is designed to help students understand and implement various forecasting techniques.
+Este repositorio contiene un Jupyter Notebook enfocado en modelos de pronósticos y análisis de series de tiempo. El proyecto está diseñado para ayudar a los estudiantes a entender e implementar diversas técnicas de pronóstico.
 
-## Project Overview
+## Descripción del Proyecto
 
-The project includes implementation and analysis of various forecasting models and techniques, such as:
+El proyecto incluye la implementación y análisis de diversos modelos y técnicas de pronóstico, tales como:
 
-- Time Series Analysis
-- Forecasting Models
-- Predictive Analytics
-- Model Evaluation and Selection
-- Statistical Analysis
+- Análisis de Series de Tiempo
+- Modelos de Pronóstico
+- Análisis Predictivo
+- Evaluación y Selección de Modelos
+- Análisis Estadístico
 
-## Project Structure
+## Estructura del Proyecto
 
-- `Modelos de Pronósticos - Completo.ipynb`: Main Jupyter notebook containing the forecasting models and analysis
-- `requirements.txt`: List of Python packages required for this project
+- `Modelos de Pronósticos - Completo.ipynb`: Notebook principal con los modelos de pronóstico y análisis
+- `requirements.txt`: Lista de paquetes Python requeridos para este proyecto
 
-## Tools and Technologies
+## Herramientas y Tecnologías
 
-- Python (3.x recommended)
+- Python 3.11
 - Jupyter Notebook
-- Data Analysis Libraries:
+- Librerías de Análisis de Datos:
   - Pandas
   - Plotly
   - Scikit-learn
@@ -29,31 +29,37 @@ The project includes implementation and analysis of various forecasting models a
   - SciPy
   - NumPy
 
-## Installation Instructions
+## Instrucciones de Instalación
 
-1. Clone this repository:
+### Opción 1: GitHub Codespaces (Recomendado)
+
+Simplemente abre este repositorio en GitHub Codespaces y el entorno se configurará automáticamente.
+
+### Opción 2: Instalación Local
+
+1. Clona este repositorio:
    ```bash
-   git clone https://github.com/jorgermzg15/forecasting.git
-   cd forecasting
+   git clone https://github.com/jorgermzg15/forecasting-students.git
+   cd forecasting-students
    ```
 
-2. Create a virtual environment:
+2. Crea un entorno virtual:
    ```bash
-   # On macOS/Linux
+   # En macOS/Linux
    python -m venv .venv
    source .venv/bin/activate
 
-   # On Windows
+   # En Windows
    python -m venv .venv
-   .\.venv\Scripts\activate
+   .\venv\Scripts\activate
    ```
 
-3. Install the required packages:
+3. Instala los paquetes requeridos:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Launch Jupyter Notebook:
+4. Inicia Jupyter Notebook:
    ```bash
    jupyter notebook
    ```

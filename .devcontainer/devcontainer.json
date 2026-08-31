@@ -11,13 +11,12 @@
         "ms-toolsai.jupyter"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.venv/bin/python",
-        "python.terminal.activateEnvironment": true
+        "python.defaultInterpreterPath": "${containerWorkspaceFolder}/.local/bin/python",
+        "python.terminal.activateEnvironment": false
       }
     }
   },
-  "postCreateCommand": 
-    "bash -lc 'python -m venv .venv && . .venv/bin/activate && python -m pip install --upgrade pip setuptools wheel && pip install -r requirements.txt && python -m ipykernel install --user --name exploratory-data-analysis --display-name \"Python (Exploratory Data Analysis)\"'",
+  "postCreateCommand": "python -m ipykernel install --user --name forecasting --display-name \"Python (Forecasting)\"",
   "forwardPorts": [8888],
-  "remoteUser": "vscode"
+  "remoteUser": "codespace"
 }
